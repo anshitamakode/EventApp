@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer; /* Add this to make the cards clickable */
+}
+
+.card:hover {
+  background-color: #ddd;
+}
+
+.card-image {
+  width: 60%;
+  max-height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
